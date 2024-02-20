@@ -1,0 +1,132 @@
+/**
+ * 
+ */
+package junit;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/**
+ * @author dw1a
+ *
+ */
+class NumerosAmigosTest {
+
+	
+	@Test
+	void testNumerosAmigos() {
+		
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testAmigoMal() {
+		int numEsperado = 2;
+		NumerosAmigos numerosMal = new NumerosAmigos(2,3); 
+		boolean resultado = numerosMal.amigo();
+		assertFalse(numerosMal,numEsperado);
+	}
+	
+	@Test
+	void testAmigoPerfecto() {
+		int numPerfecto= 2;
+		NumerosAmigos numPerf = new NumerosAmigos(numPerfecto, numPerfecto); 
+		int resultado = numPerf.esN1IgualAN2();
+		assertTrue(resultado,numPerf);
+	}
+	
+	void testEsCeroN1() {
+		NumerosAmigos numPerf = new NumerosAmigos(0, 0); 
+		int resultado = numPerf.esN1IgualAN2();
+		assertNull(resultado,numPerf);
+	}
+	
+	void testN1yN2SinIguales() {
+		NumerosAmigos numPerf = new NumerosAmigos(2, 1); 
+		int resultado = numPerf.esN1IgualAN2();
+		assertEquals(resultado,numPerf);
+	}
+
+
+
+	@Test
+	void testEsN1IgualAN2() {
+		fail("Not yet implemented");
+	}
+
+
+	@Test
+	void testObject() {
+		fail("Not yet implemented");
+	}
+
+	
+	@Test
+	void testGetClass() {
+		fail("Not yet implemented");
+	}
+
+
+	@Test
+	void testHashCode() {
+		fail("Not yet implemented");
+	}
+
+
+	@Test
+	void testEquals() {
+		fail("Not yet implemented");
+	}
+
+
+	@Test
+	void testClone() {
+		fail("Not yet implemented");
+	}
+
+
+	@Test
+	void testToString() {
+		fail("Not yet implemented");
+	}
+
+	
+	@Test
+	void testNotify() {
+		fail("Not yet implemented");
+	}
+
+
+	@Test
+	void testNotifyAll() {
+		fail("Not yet implemented");
+	}
+
+
+	@Test
+	void testWait() {
+		fail("Not yet implemented");
+	}
+
+	
+	@Test
+	void testWaitLong() {
+		fail("Not yet implemented");
+	}
+
+	
+	@Test
+	void testWaitLongInt() {
+		fail("Not yet implemented");
+	}
+
+	
+	@Test
+	void testFinalize() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,136 @@
+/**
+ * 
+ */
+package junit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+/**
+ * @author dw1a
+ *
+ */
+class NumerosAmigosTest {
+
+	/**
+	 * Test method for {@link junit.NumerosAmigos#NumerosAmigos(int, int)}.
+	 */
+	@Test
+	void testNumerosAmigos() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link junit.NumerosAmigos#amigo()}.
+	 */
+	@Test
+	void testAmigo() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link junit.NumerosAmigos#esN1IgualAN2()}.
+	 */
+	@Test
+	void testEsN1IgualAN2() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#Object()}.
+	 */
+	@Test
+	void testObject() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#getClass()}.
+	 */
+	@Test
+	void testGetClass() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#hashCode()}.
+	 */
+	@Test
+	void testHashCode() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#equals(java.lang.Object)}.
+	 */
+	@Test
+	void testEquals() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#clone()}.
+	 */
+	@Test
+	void testClone() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#toString()}.
+	 */
+	@Test
+	void testToString() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#notify()}.
+	 */
+	@Test
+	void testNotify() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#notifyAll()}.
+	 */
+	@Test
+	void testNotifyAll() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#wait()}.
+	 */
+	@Test
+	void testWait() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#wait(long)}.
+	 */
+	@Test
+	void testWaitLong() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#wait(long, int)}.
+	 */
+	@Test
+	void testWaitLongInt() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link java.lang.Object#finalize()}.
+	 */
+	@Test
+	void testFinalize() {
+		fail("Not yet implemented");
+	}
+
+}
